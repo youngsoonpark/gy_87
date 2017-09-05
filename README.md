@@ -1,7 +1,7 @@
 # GY-87 for ROS on Raspberry Pi 3
 Implementation of the sensors on the GY-87 breakout board in ROS for Raspberry Pi. It is reading out the sensor MPU6050 and HMC5883L which is connected on the auxilary I2C of the former sensor.
 
-The pressure sensor BMP180 and the core temperature of the MPU6050 is not being read.
+The pressure sensor BMP180 and the core temperature of the MPU6050 are not read out.
 
 This package is using libraries developed for Arduino and utilizing them with an I2Cdev wrapper for the Raspberry Pi. This wrapper is using [bcm2835](http://www.airspayce.com/mikem/bcm2835/index.html) instead of [wiringPi](http://wiringpi.com/download-and-install/).
 
