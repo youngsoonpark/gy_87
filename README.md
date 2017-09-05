@@ -50,7 +50,13 @@ There might be a bug in ROS where a node run with sudo is not exiting completely
 
 ## Performance
 
-`ps aux` reports around 4% CPU and 1% memory usage when publishing topics with 50 Hz.
+`ps aux` reports around 4% CPU and 1% memory usage when publishing topics with 50 Hz. A similar approach in Python took about 30% CPU usage.
+
+## ToDo
+
+The integer values read from the sensors are currently interpolated from two values found somewhere online. Definitely need to check the values for magnetic field values. However the length of the magnetic field vector is not important since it gets normalized during quaternion calculation.
+
+Add covariance matrices.
 
 ## Credits
 
