@@ -38,7 +38,7 @@ catkin_make --pkg=gy_87 && . devel/setup.bash
 
 ## Running the Node
 
-Since the node needs `sudo` to use I2C, the node cannot be run directly (it will end with `Segmentation fault` message). It needs to be run with the included launch file instead. Type the following to run the node:
+Since the node needs `sudo` to use I2C, the node cannot be run directly (it will end with a `Segmentation fault` message). It needs to be run with the included launch file instead. Type the following to run the node:
 
 ```
 roslaunch gy_87 gy_87.launch
