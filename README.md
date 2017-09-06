@@ -1,5 +1,5 @@
 # GY-87 for ROS on Raspberry Pi 3
-Implementation of the sensors on the GY-87 breakout board in ROS for Raspberry Pi. It is reading out the sensor MPU6050 and HMC5883L which is connected on the auxilary I2C of the former sensor.
+Implementation of the sensors on the GY-87 breakout board in ROS for Raspberry Pi. It is reading out the sensor MPU6050 and HMC5883L which is connected to the auxilary I2C port of the former sensor.
 
 The pressure sensor BMP180 and the core temperature of the MPU6050 are not read out.
 
@@ -25,7 +25,7 @@ Clone this package to your catkin workspace source folder:
 
 ```
 cd ~/catkin_ws/src/
-git clone https://github.com/smcgit/gy_87.git
+git clone https://github.com/jklgit/gy_87.git
 ```
 
 Build the package:
